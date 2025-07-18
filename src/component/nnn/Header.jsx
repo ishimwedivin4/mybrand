@@ -160,7 +160,7 @@ const Header = ({ adminButton = null }) => {
               handleNavClick('home');
             }}
           >
-            Portfolio
+          Divin
           </a>
 
           {/* Desktop Navigation */}

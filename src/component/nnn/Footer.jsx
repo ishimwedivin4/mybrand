@@ -30,7 +30,7 @@ const Footer = () => {
     },
     {
       name: 'Portfolio',
-      url: 'https://yourportfolio.com',
+      url: 'https://ishimwedivin.vercel.app',
       icon: '🌐',
       color: '#667eea'
     }
@@ -44,14 +44,16 @@ const Footer = () => {
     { name: 'Contact', href: '#contact' }
   ];
 
-  const services = [
-    'Web Development',
-    'Mobile App Development',
-    'UI/UX Design',
-    'API Development',
-    'Database Design',
-    'DevOps & Deployment'
-  ];
+const services = [
+  'Web Development',
+  'Mobile App Development',
+  'UI/UX Design',
+  'API Development',
+  'Database Design & Management',
+  'DevOps, Docker & Deployment',
+  'Network Configuration & Security'
+];
+
 
   const handleLinkClick = (href) => {
     if (href.startsWith('#')) {
@@ -280,7 +282,7 @@ const Footer = () => {
                 color: '#e2e8f0',
                 textAlign: 'center'
               }}>
-                💡 "Code is like humor. When you have to explain it, it's bad."
+                {/* 💡 "Code is like humor. When you have to explain it, it's bad." */}
               </p>
             </div>
           </div>
@@ -290,7 +292,7 @@ const Footer = () => {
         <div style={footerStyles.bottomBar}>
           <div style={footerStyles.copyright}>
             <p style={{ margin: 0 }}>
-              © {currentYear} Ishimwe Divin. All rights reserved. Built with ❤️ using React & Spring Boot
+              © {currentYear} Ishimwe Divin. All rights reserved. Built using React(vite) & Spring Boot
             </p>
           </div>
           <a

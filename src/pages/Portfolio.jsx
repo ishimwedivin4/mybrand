@@ -266,9 +266,10 @@ const Portfolio = ({ adminButton = null }) => {
       {/* Hero Section */}
       <section id="home" style={portfolioStyles.hero}>
         <div style={portfolioStyles.heroContent}>
-          <h1 style={portfolioStyles.heroTitle}>Full Stack Developer</h1>
+          <h1 style={portfolioStyles.heroTitle}>Full Stack Developer | Network & DevOps Enthusiast</h1>
           <p style={portfolioStyles.heroSubtitle}>
-            Creating innovative web solutions with modern technologies and clean, efficient code.
+          Bridging development and infrastructure to build fast, scalable, and secure web apps using modern tech,
+          Docker, and solid networking practices.
           </p>
           <a 
             href="#contact" 
@@ -293,16 +294,21 @@ const Portfolio = ({ adminButton = null }) => {
           <h2 style={portfolioStyles.sectionTitle}>About Me</h2>
           <div style={portfolioStyles.divider}></div>
           <p style={portfolioStyles.sectionSubtitle}>
-            Passionate developer with expertise in modern web technologies, 
-            focused on creating exceptional user experiences and scalable solutions.
+            Passionate full-stack developer with expertise in modern web technologies,
+              networks, and containerization tools like Docker. 
+              I create innovative solutions that bridge the gap between design and functionality,
+              ensuring robust backend systems and seamless user experiences. 
+              Skilled in both frontend and backend development, DevOps practices, 
+              and deploying scalable, secure applications.
           </p>
         </div>
         <div style={portfolioStyles.card}>
           <p style={{ fontSize: 'clamp(1rem, 2.5vw, 1.1rem)', lineHeight: '1.8', color: '#4a5568', textAlign: 'center' }}> {/* Responsive font */}
-            I specialize in building full-stack applications using React, Spring Boot, and modern databases. 
-            With a keen eye for design and a passion for clean code, I transform ideas into powerful digital solutions 
-            that make a real impact. My goal is to bridge the gap between design and functionality, 
-            creating applications that are not only beautiful but also highly performant and user-friendly.
+            I specialize in building full-stack applications using React, Spring Boot, and modern databases like PostgreSQL.
+             With a sharp eye for design, clean code practices, and a strong background in Docker and networking,
+             I turn ideas into robust, scalable, and secure digital solutions. 
+             My goal is to bridge the gap between design, functionality, and infrastructure — delivering apps that
+              are not only beautiful and responsive but also high-performing and production-ready.
           </p>
         </div>
       </section>
