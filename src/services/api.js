@@ -1,5 +1,5 @@
 // API Service for Portfolio Application
-const API_BASE_URL = 'https://brandbackend.up.railway.app';
+const API_BASE_URL = 'https://brandbackend.up.railway.app,http://localhost:8080/';
 
 // Generic API request handler
 const apiRequest = async (url, options = {}) => {
